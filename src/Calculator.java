@@ -6,7 +6,9 @@ public class Calculator {
      * @param b second number
      */
     public static void addNumbers(int a, int b) {
-        System.out.println("Sum: " + (a+b));
+        int sum = a + b;
+        System.out.println("Sum: " + sum);
+
     }
 
 
@@ -17,6 +19,7 @@ public class Calculator {
     public static void addLotsOfNumbers(int[] numbers){
         for(int i=0; i<numbers.length; i++){
             addNumbers(numbers[i], numbers[i+1]);
+            System.out.println("bla");
         }
     }
 
